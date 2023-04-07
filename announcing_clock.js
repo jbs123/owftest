@@ -1,0 +1,32 @@
+{
+    "universalName":"org.owfgoss.owf.examples.examplewidget",
+    "displayName":"Announcing Clock 1",
+    "description": "This displays your current time.",
+    "widgetVersion":"1.0",
+    "widgetUrl":"ozone-example-widget/build/announcing_clock.html",
+    "imageUrlSmall":"themes/common/images/widget-icons/example.png",
+    "imageUrlMedium":"themes/common/images/widget-icons/example.png",
+    "width":500,
+    "height":525,
+    "visible":true,
+    "singleton":false,
+    "background":false,
+    "widgetTypes":[
+        "standard"
+    ],
+    "defaultTags":[
+        "grid"
+    ],
+    "intents":{
+        "send":[
+            {
+                "action":"Render",
+                "dataTypes":[ "application/vnd.owf.sample.data" ]
+            },
+            {
+                "action":"View",
+                "dataTypes":[ "text/html" ]
+            }
+        ]
+    }
+}
